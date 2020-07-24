@@ -1,7 +1,7 @@
 import express from 'express';
-import routes from './Routes';
+import routes from './routes/Index';
 
-import './database';
+import './database/Index';
 
 const app = express();
 
